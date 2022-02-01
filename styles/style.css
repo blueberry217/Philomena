@@ -1,0 +1,296 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background: rgb(50,20,151);
+    background: radial-gradient(circle, rgba(50,20,151,1) 35%, rgba(35,14,106,1) 100%);
+    color:white;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.logo{
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    width: 250px;
+    margin: 20px;
+}
+.nav {
+    padding: 5px 10px;
+}
+
+.wrapper{
+    padding:0px 100px 100px;
+}
+
+.username{
+    margin-left: 35px !important;
+}
+.avatar{
+    color:black;
+    border-radius: 30px;
+    padding: 10px 11px;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.container {
+    margin-top:50px;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.content {
+    
+    width: 450px;
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-radius: 15px;
+    
+}
+
+.afspraak-button{
+    font-size: 12px;
+    text-decoration: none;
+    background-color: gold;
+    border: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    }
+
+
+.line {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+
+    -webkit-transform: scale(1, .5);
+    transform: scale(1, .5);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom
+}
+
+
+.flexbox {
+    float: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px 20px;
+    float: none;
+    height: 25px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: block;
+    border: 1px solid grey;
+    
+}
+
+.radio-toolbar input[type="radio"] {
+    display: none;
+  }
+  
+.radio-toolbar label {
+    display: inline-block;
+    background-color: white;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 1px solid #444;
+    border-radius: 25px;
+    margin: 5px;
+}
+  
+.radio-toolbar input[type="radio"]:checked+label {
+    background-color:#007fff;
+    border-color: #007fff;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.radio-behandeling{
+    width: 350px;
+    text-align: center;
+}
+
+.is-input {
+    width: 85%;
+    padding: 15px 20px;
+}
+
+.submit {
+    
+    height: 50px;
+    text-transform: uppercase;
+
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+
+  .selectdiv {
+    position: relative;
+    /*Don't really need this just for demo styling*/
+    /* float: left; */
+    min-width: 200px;
+    margin-right: 15px;
+  }
+  
+  .selectdiv:after {
+      content: '\f078';
+      font: normal normal normal 17px/1 FontAwesome;
+      color: #007fff;
+      right: 11px;
+      top: 6px;
+      height: 34px;
+      padding: 15px 0px 0px 8px;
+      border-left: 1px solid #007fff;
+      position: absolute;
+      pointer-events: none;
+  }
+  
+  /* IE11 hide native button (thanks Matt!) */
+  select::-ms-expand {
+  display: none;
+  }
+  
+  .selectdiv select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Add some styling */
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: 50px;
+    float: right;
+    margin: 5px 0px;
+    padding: 0px 24px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #333;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #007fff;
+    -ms-word-break: normal;
+    word-break: normal;
+  }
+
+
+  .align-left {
+    align-content: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.align-right {
+    align-content: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.is-column{
+    flex-flow: column;
+}
+
+.glow{
+        box-shadow:0px 0px 0px 1px rgb(255 255 255 / 50%)
+}
+
+.open{
+    padding: 10px;
+    background-color: rgba(255,160,122 ,.2);
+    color:darkred;
+}
+
+.geboekt{
+    padding: 10px;
+    background-color: #bfb;
+    color:darkolivegreen
+}
+
+
+.next{
+    background-color:#bfb;
+    border-color: #4c4;  
+}
+
+.alert-success{
+    display: flex !important;
+    background-color:#bfb;
+    border-color: #4c4;  
+    color: green;
+    width: 100;
+    height: 30px;
+}
+
+.is-button {
+    margin: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.is-white{
+    background-color: white;
+}
+
+.text-is-primary{
+    color: rgb(50,20,151);
+}
+
+.text-is-dark{
+    color: #14083d;
+}
+
+
+.is-bold{
+    font-weight: bold;
+}
+
+.is-uppercase{
+    text-transform: uppercase;
+}
+
+.is-hidden{
+    display: none;
+}
+
+.fade-4{
+    opacity: .4;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.is-date{
+    font-size: 11px;
+    color:lightskyblue;
+}
+

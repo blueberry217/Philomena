@@ -1,0 +1,1 @@
+<h1>Wachtwoord vergeten</h1>
