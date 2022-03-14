@@ -1,2 +1,2 @@
 # Philomena
-Project studio
+Salon Studio
